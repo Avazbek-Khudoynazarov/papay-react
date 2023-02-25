@@ -65,8 +65,8 @@ export function Events() {
             centeredSlides={true}
             spaceBetween={30}
             navigation={{
-              nextEl: ".swipe-button-next",
-              prevEl: ".swipe-button-prev",
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
             }}
             pagination={{ el: ".swiper-pagination", clickable: true }}
             autoplay={{

@@ -1,4 +1,3 @@
-import { Height } from "@mui/icons-material";
 import { Avatar, Box, Stack } from "@mui/material";
 import { Container } from "@mui/system";
 import React from "react";

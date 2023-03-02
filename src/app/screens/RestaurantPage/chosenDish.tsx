@@ -14,7 +14,7 @@ import "swiper/css/navigation";
 import "swiper/css/thumbs";
 
 const chosen_list = Array.from(Array(3).keys());
-const chosen_list2 = Array.from(Array(4).keys());
+const chosen_list2 = Array.from(Array(10).keys());
 
 export function ChosenDish() {
   return (

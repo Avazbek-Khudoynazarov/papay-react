@@ -871,6 +871,7 @@
   --swiper-pagination-color: #fff;
   width: 76%;
   height: 290px;
+  border-radius: 10px;
 }
 
 .chosen_dish_page .chosen_dish_info_container {

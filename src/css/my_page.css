@@ -1,0 +1,410 @@
+.my_page {
+  display: flex;
+  width: 100%;
+  height: 1200px;
+  /* border: 1px solid red; */
+}
+
+/* .my_page .my_page_left {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.my_page .menu_name {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 68px;
+  text-align: center;
+  border-bottom: 1px solid white;
+
+  /* border: 1px solid red; */
+
+  color: #ffffff;
+}
+
+.my_page .my_page_frame .all_article_box {
+  margin-right: 80px;
+}
+
+.my_page .my_page_frame .all_article_box {
+  width: 821px;
+  height: 205px;
+  margin-top: 25px;
+  margin-left: 200px;
+
+  display: flex;
+  flex-direction: row;
+
+  border-radius: 20px;
+  background: #182226;
+  /* border: 1px solid red; */
+}
+
+.my_page .my_page_frame .all_article_box .all_article_img {
+  width: 155px;
+  height: 200px;
+  background-size: cover;
+  /* object-fit: contain; */
+  background-repeat: no-repeat;
+  border-radius: 30px 0px 0px 30px;
+  margin-left: 5px;
+  /* border: 1px solid red; */
+}
+
+.my_page .my_page_frame .all_article_box .all_article_author_user {
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.my_page .my_page_frame .all_article_box .all_article_container {
+  margin-left: 15px;
+
+  /* border: 1px solid red; */
+}
+
+.my_page .my_page_frame .all_article_box .all_article_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: #e3c08d;
+}
+
+.my_page .my_page_frame .all_article_box .all_article_desc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #e3c08d;
+}
+
+.my_page .my_page_frame .all_article_box .article_share {
+  margin-left: 160px;
+
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.my_page .bottom_box {
+  margin-left: 250px;
+  /* border: 1px solid red; */
+}
+
+.my_page .my_page_frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.my_page .my_page_frame .my_page_right {
+  padding: 20px;
+  width: 30%;
+  height: 402px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 16px rgba(242, 189, 87, 0.04);
+  border-radius: 16px;
+  padding: 0px 25px 15px 25px;
+
+  margin-bottom: 20px;
+  /* border: 1px solid red; */
+}
+
+.my_page .order_info_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.my_page .order_info_box .settings_btn {
+  margin-top: 28px;
+  margin-left: 100px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.my_page .order_info_box .order_user_img {
+  position: relative;
+  width: 117px;
+  height: auto;
+  /* border: 1px solid red; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.my_page .order_info_box .order_user_img .order_user_icon_box {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.33);
+  border-radius: 50%;
+}
+
+.my_page .order_info_box .order_user_name {
+  margin-top: 10px;
+  font-family: "Commissioner";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  color: #08090d;
+}
+
+.my_page .order_info_box .order_user_prof {
+  font-family: "Commissioner";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+
+  color: #a1a1a1;
+}
+
+.my_page .order_info_box .user_media_box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.my_page .order_info_box .user_media_box {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #616164;
+}
+
+.my_page .order_info_box .user_desc {
+  display: flex;
+  justify-content: center;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #616164;
+}
+
+.my_page .my_page_menu .menu_box {
+  width: 285px;
+  height: 50px;
+  margin-top: 15px;
+  background: #ffffff;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+
+  color: #000000;
+}
+
+.my_page .follow_box {
+  width: auto;
+  height: 140px;
+
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid red; */
+  margin-top: 20px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(38, 112, 129, 0.9) 0%,
+    rgba(21, 61, 70, 0.9) 100%
+  );
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15),
+    inset 3px 2px 9px rgba(255, 255, 255, 0.25);
+  border-radius: 17px;
+}
+
+.my_page .follow_box .username_text {
+  display: flex;
+  margin-top: 45px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+.my_page .follow_box .name_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+
+  color: #ffffff;
+}
+
+.my_page .follow_box .following_already {
+  width: 160px;
+  height: 50px;
+  margin-top: 40px;
+  margin-right: 50px;
+
+  /* display: flex; */
+  background: #68c5cb;
+  box-shadow: 1px 4px 6px rgba(211, 211, 211, 0.25),
+    inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 26px;
+}
+
+.my_page .follow_box .follow_btn {
+  width: 160px;
+  height: 50px;
+  margin-top: 40px;
+  background: #30945e;
+  border: 1px solid #ffffff;
+  box-shadow: 1px 4px 6px rgba(211, 211, 211, 0.25),
+    inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 26px;
+}
+
+.my_page .follow_box .follow_cancle_btn {
+  width: 160px;
+  height: 50px;
+  margin-top: 43px;
+  margin-right: 45px;
+
+  display: flex;
+  background: #e81010;
+  border: 1px solid #ffffff;
+  box-shadow: 1px 4px 6px rgba(211, 211, 211, 0.25),
+    inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 26px;
+}
+
+.my_page .my_settings_page {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  /* border: 1px solid red; */
+}
+
+.my_page .my_settings_page .member_media_frame {
+  width: 820px;
+  height: 120px;
+  background: #ffffff;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.my_page .my_settings_page .member_media_frame .mb_image {
+  display: flex;
+  margin-top: 13px;
+}
+
+.my_page .my_settings_page .member_media_frame .media_change_box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: #140342;
+}
+
+.my_page .my_settings_page .input_frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-top: 59px;
+  /* background: #ffffff; */
+}
+
+.my_page .my_settings_page .input_frame .spec_label {
+  display: flex;
+  justify-content: flex-start;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.my_page .my_settings_page .input_frame .spec_input {
+  width: 820px;
+  height: 54px;
+  /* border: 1px solid red; */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: #4f547b;
+}
+
+.my_page .my_settings_page .input_frame .short_input {
+  width: 400px;
+  height: 54px;
+  /* border: 1px solid red; */
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+
+.my_page .my_settings_page .input_frame .spec_textarea {
+  width: 820px;
+  height: auto;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: #4f547b;
+}
+
+.my_page .form_row {
+  margin: 20px;
+}

@@ -232,7 +232,7 @@
 }
 
 .my_page .follow_box {
-  width: auto;
+  width: 800px;
   height: 140px;
 
   display: flex;
